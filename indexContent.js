@@ -28,6 +28,9 @@ let lecturaauxlink = document.createElement('a');
 lecturaauxlink.href = "pages/pagelecturaAux/lecturaux.html";
 lecturaauxlink.innerHTML = "Ir hacia comentario sobre Benefits of Learning UX Design"
 
+linebreak = document.createElement('br');
+linebreak2 = document.createElement('br');
+
 let htmllogo = document.createElement('img');
 htmllogo.src="assets/htmllogo.png";
 htmllogo.alt = "Logo de HTML";
@@ -38,11 +41,7 @@ menumusic.src = "assets/menubg.mp3";
 menumusic.controls = true;
 menumusic.autoplay = false;
 menumusic.loop = true;
-
-linebreak = document.createElement('br');
-linebreak2 = document.createElement('br');
-linebreak3 = document.createElement('br');
-
+menumusic.volume = 0.5;
 
 
 window.onload = function() {
@@ -50,12 +49,9 @@ window.onload = function() {
     document.getElementById('pageindex').appendChild(subtitle1);
     document.getElementById('pageindex').appendChild(subtitle2);
     document.getElementById('pageindex').appendChild(select);
-    document.getElementById('pageindex').appendChild(mainhistorialink);
-    document.getElementById('pageindex').appendChild(linebreak);
-    document.getElementById('pageindex').appendChild(lecturaauxlink);
-    document.getElementById('pageindex').appendChild(linebreak2);
-    document.getElementById('pageindex').appendChild(htmllogo);
-    document.getElementById('pageindex').appendChild(linebreak3);
-    document.getElementById('pageindex').appendChild(menumusic);
-
+    document.getElementById('links').appendChild(mainhistorialink);
+    document.getElementById('links').appendChild(linebreak);
+    document.getElementById('links').appendChild(lecturaauxlink);
+    document.getElementById('image').appendChild(htmllogo);
+    document.getElementById('player').appendChild(menumusic);
 }

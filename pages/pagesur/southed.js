@@ -32,17 +32,14 @@ let linebreak3 = document.createElement('br');
 let linebreak4 = document.createElement('br');
 
 window.onload = function() {
-    document.getElementById('southed').appendChild(hallway);
-    document.getElementById('southed').appendChild(parrafo1);
-    document.getElementById('southed').appendChild(linebreak1);
-    document.getElementById('southed').appendChild(parrafo2);
-    document.getElementById('southed').appendChild(linebreak2);
-    document.getElementById('southed').appendChild(parrafo3);
-    document.getElementById('southed').appendChild(linebreak3);
-    document.getElementById('southed').appendChild(corner);
-    document.getElementById('southed').appendChild(audio);
-    document.getElementById('southed').appendChild(linebreak4);
-    document.getElementById('southed').appendChild(menu);
+    document.getElementById('text').appendChild(parrafo1);
+    document.getElementById('text').appendChild(linebreak1);
+    document.getElementById('text').appendChild(parrafo2);
+    document.getElementById('text').appendChild(linebreak2);
+    document.getElementById('text').appendChild(parrafo3);
+    document.getElementById('text').appendChild(linebreak3);
+    document.getElementById('text').appendChild(audio);
+    document.getElementById('link1').appendChild(menu);
 
 
 }

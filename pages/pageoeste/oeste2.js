@@ -23,12 +23,11 @@ let linebreak1 = document.createElement('br');
 let linebreak2 = document.createElement('br');
 
 window.onload = function() {
-    document.getElementById('oeste2').appendChild(tronco);
-    document.getElementById('oeste2').appendChild(parrafomain);
-    document.getElementById('oeste2').appendChild(linebreak1);
-    document.getElementById('oeste2').appendChild(parrafosec);
-    document.getElementById('oeste2').appendChild(linkderecha);
-    document.getElementById('oeste2').appendChild(linebreak2);
-    document.getElementById('oeste2').appendChild(linkizquierda);
+    document.getElementById('text').appendChild(parrafomain);
+    document.getElementById('text').appendChild(linebreak1);
+    document.getElementById('text').appendChild(parrafosec);
+    document.getElementById('link1').appendChild(linkderecha);
+    document.getElementById('link2').appendChild(linebreak2);
+    document.getElementById('link2').appendChild(linkizquierda);
 
 }

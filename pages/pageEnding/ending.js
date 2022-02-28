@@ -9,7 +9,6 @@ linkthanks.href = "../pagethanks/thanks.html";
 linkthanks.innerHTML ="Continuar";
 
 window.onload = function() {
-    document.getElementById('ending').appendChild(redeyes);
-    document.getElementById('ending').appendChild(parrafo);
-    document.getElementById('ending').appendChild(linkthanks);
+    document.getElementById('text').appendChild(parrafo);
+    document.getElementById('link1').appendChild(linkthanks);
 }

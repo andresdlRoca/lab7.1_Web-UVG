@@ -10,8 +10,7 @@ linked.href = "southed.html";
 linked.innerHTML = "Volver a casa";
 
 window.onload = function() {
-    document.getElementById('sur2').appendChild(senderoimg);
-    document.getElementById('sur2').appendChild(parrafo);
-    document.getElementById('sur2').appendChild(linked);
+    document.getElementById('text').appendChild(parrafo);
+    document.getElementById('link1').appendChild(linked);
     
 }

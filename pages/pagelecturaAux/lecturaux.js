@@ -48,18 +48,19 @@ let pruebasimagen = document.createElement('img');
 pruebasimagen.src = "../../assets/testing.jpg";
 pruebasimagen.alt = "testing";
 pruebasimagen.width = "400";
+let article3 = document.createElement('article');
 article2.appendChild(headera2);
 article2.appendChild(titlea2);
 article2.appendChild(parrafoa2);
 article2.appendChild(imagenempatia);
-article2.appendChild(titlea21);
-article2.appendChild(parrafoa21);
-article2.appendChild(sentimientosimagen);
-article2.appendChild(pruebastitulo);
-article2.appendChild(pruebasparrafo);
-article2.appendChild(pruebasimagen);
+article3.appendChild(titlea21);
+article3.appendChild(parrafoa21);
+article3.appendChild(sentimientosimagen);
+article3.appendChild(pruebastitulo);
+article3.appendChild(pruebasparrafo);
+article3.appendChild(pruebasimagen);
 
-let article3 = document.createElement('article');
+let article4 = document.createElement('article');
 let efectosux = document.createElement('h3');
 efectosux.innerHTML = "Como afecta el UX Design a la interacción con los usuarios";
 let parrafoefectos = document.createElement('p');
@@ -68,9 +69,9 @@ let imagenui = document.createElement('img');
 imagenui.src = "../../assets/userinteraction.jpg";
 imagenui.alt = "userinteraction";
 imagenui.width = "400";
-article3.appendChild(efectosux);
-article3.appendChild(parrafoefectos);
-article3.appendChild(imagenui);
+article4.appendChild(efectosux);
+article4.appendChild(parrafoefectos);
+article4.appendChild(imagenui);
 
 let linkindex = document.createElement('a');
 linkindex.href = "../../index.html";
@@ -78,8 +79,9 @@ linkindex.innerHTML = "Ir hacia menu principal";
 
 window.onload = function() {
     
-    document.getElementById('lecturaux').appendChild(article1);
-    document.getElementById('lecturaux').appendChild(article2);
-    document.getElementById('lecturaux').appendChild(article3);
-    document.getElementById('lecturaux').appendChild(linkindex);
+    document.getElementById('articulo1').appendChild(article1);
+    document.getElementById('articulo2').appendChild(article3);
+    document.getElementById('articulo3').appendChild(article3);
+    document.getElementById('articulo4').appendChild(article4);
+    document.getElementById('links').appendChild(linkindex);
 }

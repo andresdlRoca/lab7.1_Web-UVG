@@ -19,10 +19,9 @@ linkhut.innerHTML="No";
 let linebreak = document.createElement('br');
 
 window.onload = function() {
-    document.getElementById('sotano1').appendChild(img);
-    document.getElementById('sotano1').appendChild(parrafo);
-    document.getElementById('sotano1').appendChild(select);
-    document.getElementById('sotano1').appendChild(linkending);
-    document.getElementById('sotano1').appendChild(linebreak);
-    document.getElementById('sotano1').appendChild(linkhut);
+    document.getElementById('text').appendChild(parrafo);
+    document.getElementById('text').appendChild(select);
+    document.getElementById('link1').appendChild(linkending);
+    document.getElementById('link1').appendChild(linebreak);
+    document.getElementById('link2').appendChild(linkhut);
 }

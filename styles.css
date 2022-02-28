@@ -1,0 +1,18 @@
+body {
+  background: burlywood;
+  background-image: url("assets/backgroundbook.jpg");
+  background-position-y: 5%;
+  background-position-x: center;
+  background-size: 100%;
+}
+
+p, h1, h5, a {
+  color: #e76800;
+  font-family: "Times New Roman", Times, serif;
+}
+
+a {
+  color: red;
+}
+
+/*# sourceMappingURL=styles.css.map */

@@ -20,9 +20,8 @@ audio.volume = 0.5;
 audio.loop = true;
 
 window.onload = function() {
-    document.getElementById('hut').appendChild(sala);
-    document.getElementById('hut').appendChild(parrafo);
-    document.getElementById('hut').appendChild(select);
-    document.getElementById('hut').appendChild(sotanolink);
-    document.getElementById('hut').appendChild(audio);
+    document.getElementById('text').appendChild(parrafo);
+    document.getElementById('text').appendChild(select);
+    document.getElementById('link1').appendChild(sotanolink);
+    document.getElementById('text').appendChild(audio);
 }

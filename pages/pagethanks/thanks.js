@@ -10,7 +10,6 @@ back.href="../../index.html";
 back.innerHTML="Volver al menu principal"
 
 window.onload = function() {
-    document.getElementById('thanks').appendChild(thanksimage);
-    document.getElementById('thanks').appendChild(thanks);
-    document.getElementById('thanks').appendChild(back);
+    document.getElementById('text').appendChild(thanks);
+    document.getElementById('link1').appendChild(back);
 }

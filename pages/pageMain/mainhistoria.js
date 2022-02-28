@@ -25,8 +25,8 @@ surlink.href="../pagesur/sur1.html";
 surlink.innerHTML = "Regresare a casa..."
 
 let audio = document.createElement('audio');
-audio.controls = true;
-audio.autoplay = false;
+audio.controls = false;
+audio.autoplay = true;
 audio.src = "../../assets/scaryforest.wav";
 
 let linebreak2 = document.createElement('br');
@@ -38,16 +38,15 @@ menuvolver.innerHTML="Salir/Volver al menu principal";
 let linebreak4 = document.createElement('br')
 
 window.onload = function() {
-    document.getElementById('mainhistoria').appendChild(bosqueimg);
-    document.getElementById('mainhistoria').appendChild(parrafomain);
-    document.getElementById('mainhistoria').appendChild(linebreak1);
-    document.getElementById('mainhistoria').appendChild(parrafoselect);
-    document.getElementById('mainhistoria').appendChild(select);
-    document.getElementById('mainhistoria').appendChild(oestelink);
-    document.getElementById('mainhistoria').appendChild(linebreak3);
-    document.getElementById('mainhistoria').appendChild(surlink);
-    document.getElementById('mainhistoria').appendChild(linebreak2);
-    document.getElementById('mainhistoria').appendChild(menuvolver);
-    document.getElementById('mainhistoria').appendChild(linebreak4);
-    document.getElementById('mainhistoria').appendChild(audio);
+    document.getElementById('text').appendChild(parrafomain);
+    document.getElementById('text').appendChild(linebreak1);
+    document.getElementById('text').appendChild(parrafoselect);
+    document.getElementById('text').appendChild(select);
+    document.getElementById('link1').appendChild(oestelink);
+    document.getElementById('link1').appendChild(linebreak3);
+    document.getElementById('link2').appendChild(surlink);
+    document.getElementById('link2').appendChild(linebreak2);
+    document.getElementById('link3').appendChild(menuvolver);
+    document.getElementById('link3').appendChild(linebreak4);
+    document.getElementById('text').appendChild(audio);
 }

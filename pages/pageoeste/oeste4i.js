@@ -10,7 +10,6 @@ salir.href = "../../index.html";
 salir.innerHTML = "Salir/Volver al menu principal";
 
 window.onload = function() {
-    document.getElementById('oeste4i').appendChild(tenta);
-    document.getElementById('oeste4i').appendChild(parrafo);
-    document.getElementById('oeste4i').appendChild(salir);
+    document.getElementById('text').appendChild(parrafo);
+    document.getElementById('link1').appendChild(salir);
 }

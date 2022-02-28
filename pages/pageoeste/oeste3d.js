@@ -10,7 +10,6 @@ linkcasa.href="../pageHut/hut.html";
 linkcasa.innerHTML = "Ir hacia cabaña";
 
 window.onload = function() {
-    document.getElementById('oeste3d').appendChild(img);
-    document.getElementById('oeste3d').appendChild(parrafo);
-    document.getElementById('oeste3d').appendChild(linkcasa);
+    document.getElementById('text').appendChild(parrafo);
+    document.getElementById('link1').appendChild(linkcasa);
 }

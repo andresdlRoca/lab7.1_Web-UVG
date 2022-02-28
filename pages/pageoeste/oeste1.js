@@ -9,7 +9,7 @@ let select = document.createElement('h4');
 select.innerHTML="¿Qué haras?";
 
 let linkmain = document.createElement('a');
-linkmain.href = "../../pageMain/mainhistoria.html";
+linkmain.href = "../pageMain/mainhistoria.html";
 linkmain.innerHTML="Regresar al punto inicial";
 
 let seguir = document.createElement('a');
@@ -19,10 +19,9 @@ seguir.innerHTML = "Subirse al bote y continuar";
 let linebreak1 = document.createElement('br');
 
 window.onload = function() {
-    document.getElementById('oeste1').appendChild(muelle);
-    document.getElementById('oeste1').appendChild(parrafo);
-    document.getElementById('oeste1').appendChild(select);
-    document.getElementById('oeste1').appendChild(linkmain);
-    document.getElementById('oeste1').appendChild(linebreak1);
-    document.getElementById('oeste1').appendChild(seguir);
+    document.getElementById('text').appendChild(parrafo);
+    document.getElementById('text').appendChild(select);
+    document.getElementById('link1').appendChild(linkmain);
+    document.getElementById('link2').appendChild(linebreak1);
+    document.getElementById('link2').appendChild(seguir);
 }
