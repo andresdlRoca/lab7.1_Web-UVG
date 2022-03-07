@@ -8,8 +8,6 @@
 *======================================
 */
 
-import "./styles.css";
-
 let header = document.createElement('h1');
 header.innerHTML = "Menu Principal - Laboratorio 6";
 
