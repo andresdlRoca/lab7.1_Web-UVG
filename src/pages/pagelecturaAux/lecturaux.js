@@ -7,7 +7,6 @@
 *   Laboratorio 6
 *======================================
 */
-import simpleParallax from '../../../node_modules/simple-parallax-js/src/simpleParallax.js';
 
 
 let article1 = document.createElement('article');
@@ -86,7 +85,4 @@ window.onload = function() {
     document.getElementById('articulo3').appendChild(article3);
     document.getElementById('articulo4').appendChild(article4);
     document.getElementById('links').appendChild(linkindex);
-
-    var images = document.querySelectorAll('img');
-    new simpleParallax(images);
 }
