@@ -1,0 +1,24 @@
+//Variables
+$fondo-principal: burlywood;
+$color-letras: rgb(231, 104, 0);
+$font-letras: "Times New Roman", Times, serif;
+
+body{
+    background: $fondo-principal;
+    background-image: url("assets/backgroundbook.jpg");
+    background-position-y: 5%;
+    background-position-x: center;
+    background-size: 100%;
+    
+}
+
+p, h1, h5, a {
+    color: $color-letras;
+    font-family: $font-letras;
+}
+
+a {
+    color: red;
+}
+
+

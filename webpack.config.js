@@ -16,13 +16,19 @@ module.exports = {
         rules: [
             {
                 test: /\.css$/,
-                use: ["style-loader", "css-loader"]
+                use: ["style-loader", "css-loader"],
             },
 
             {
                 test: /\.(png|jpe?g|gif|jpg|wav|mp3)$/i,
-                use: ["file-loader"]
+                use: ["file-loader"],
 
+            },
+
+            {
+                test: /\.js$/,
+                exclude: /node_modules/,
+                use: "babel-loader",
             }
         ]
     },

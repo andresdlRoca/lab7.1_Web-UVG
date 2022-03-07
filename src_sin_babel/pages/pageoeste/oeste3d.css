@@ -1,0 +1,22 @@
+@charset "UTF-8";
+body {
+  background-image: url("../../assets/cabaña.jpg");
+  background-size: 100%;
+}
+
+p, h4 {
+  text-align: center;
+  color: whitesmoke;
+  text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+}
+
+.container {
+  margin-top: 15%;
+}
+
+.links {
+  text-align: center;
+  color: red;
+}
+
+/*# sourceMappingURL=oeste3d.css.map */
